@@ -1,4 +1,4 @@
-@media screen and (max-width:755px) {
+@media screen and (max-width:590px) {
 
     .navbar {
 
@@ -43,7 +43,7 @@
         flex-flow: row wrap;
         height: 1800px;
         /* background: rgba(128, 128, 128, 0); */
-        background: url('../img/um1.jpg') no-repeat center;
+        background: url('../img/umo.jpg') no-repeat center;
         background-size: cover;
 
 
