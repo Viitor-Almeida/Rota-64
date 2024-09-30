@@ -197,7 +197,7 @@ body {
 .manual-btn {
     margin-left: 12%;
     margin-top: 2%;
-    border: 2px solid yellow;
+    border: 5px solid yellow;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
