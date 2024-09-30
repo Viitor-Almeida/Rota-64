@@ -147,7 +147,7 @@
         /* background: rgba(128, 128, 128, 0); */
         background: url('../img/doisss.jpg') no-repeat center;
         background-size: cover;
-
+        overflow-y: hidden;
 
     }
 
@@ -156,7 +156,7 @@
         flex-flow: row wrap;
         height: 540px;
         /* background: rgba(128, 128, 128, 0); */
-        background: url('../img/fundo.jpg') no-repeat center;
+        background: url('../img/fundors2.jpg') no-repeat center;
         background-size: auto;
 
 
