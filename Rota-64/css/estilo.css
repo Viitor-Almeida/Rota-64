@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Protest+Guerrilla&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Sofadi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dancing+Script:wght@700&family=Sofadi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dancing+Script:wght@700&family=Pacifico&family=Sofadi+One&display=swap');
+
+
+/* 
+
+1- font-family: "Anton",
+sans-serif;
+
+2- font-family: "Anton",
+sans-serif;
+
+3-   font-family: "Teko", sans-serif;
+
+4-  font-family: "Dancing Script", cursive;
+
+5-  font-family: "Sofadi One", system-ui;
+
+6-  font-family: "Archivo Black", sans-serif;
+
+7-  font-family: "Pacifico", cursive;
+
+
+*/
+
+
+* {
+
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Anton",
+        sans-serif;
+
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background: yellow;
+    /* #ffe102  */
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    width: 100%;
+
+}
+
+
+
+.logo {
+
+    /* flex: 20%; */
+    margin-left: 20%;
+    /* border: 1px solid black; */
+    text-align: center;
+
+
+}
+
+.logo h1 {
+
+    font-family: "Anton", sans-serif;
+    color: black;
+    font-size: 31px;
+
+}
+
+.menu {
+
+    flex: 60%;
+    /* border: 1px solid black; */
+    text-align: right;
+    padding: 20px;
+    margin-right: 10%;
+
+
+}
+
+.menu a {
+
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+
+
+
+}
+
+.menu a:hover {
+
+    color: darkred;
+    border-top: 4px solid black;
+
+
+}
+
+#botao {
+
+    background: yellow;
+    padding: 10px 25px;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    margin-left: 20%;
+    border: 1px solid black;
+
+}
+
+#botao:hover {
+
+    border: none;
+    background: rgb(0, 0, 0);
+    border: 1px solid black;
+    color: rgb(255, 255, 255);
+
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    height: 800px;
+    /* background: rgba(128, 128, 128, 0); */
+    background: url('../img/fundo5.jpg') no-repeat center;
+    background-size: cover;
+
+
+}
+
+.parte1 {
+    margin-left: 05%;
+    flex: 20%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    margin-right: 05%;
+}
+
+.img-parte1 {
+
+    margin-right: 05%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    flex: 20%;
+    border: 1px solid yellow;
+    width: 200px;
+    height: 400px;
+    overflow: hidden;
+
+
+}
+
+.slides {
+
+    width: 1400px;
+    height: 400px;
+    display: flex;
+
+
+}
+
+.slides input {
+
+    display: none;
+
+
+}
+
+.slide {
+
+    width: 25%;
+    position: relative;
+
+}
+
+.slide img {
+
+    width: 340px;
+
+}
+
+.manual-navegacao {
+
+    position: absolute;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.manual-btn {
+    margin-left: 12%;
+    margin-top: 2%;
+    border: 5px solid yellow;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .08s;
+
+
+
+
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 15px;
+
+
+}
+
+.manual-btn:hover {
+
+    background-color: yellow;
+
+}
+
+#radio1:checked~.first {
+
+    margin-left: 0;
+}
+
+#radio2:checked~.first {
+
+    margin-left: -25%;
+}
+
+#radio3:checked~.first {
+
+    margin-left: -50%;
+}
+
+.navegacao div {
+
+    border: 2px solid yellow;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .08s;
+
+}
+
+.navegacao {
+
+    position: absolute;
+    width: 300px;
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+    margin-left: 18px;
+    margin-top: 406px;
+}
+
+.navegacao div:not(:last-child) {
+
+    margin-right: 51px;
+
+}
+
+#radio1:checked~.navegacao .auto-btn1 {
+
+    background-color: yellow;
+
+}
+
+#radio2:checked~.navegacao .auto-btn2 {
+
+    background-color: yellow;
+
+}
+
+#radio3:checked~.navegacao .auto-btn3 {
+
+    background-color: yellow;
+
+}
+
+.img-parte2 {
+
+    margin-right: 05%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    flex: 20%;
+    border: 1px solid yellow;
+    width: 200px;
+    height: 400px;
+    overflow: hidden;
+
+
+}
+
+.slidess {
+
+    width: 1400px;
+    height: 400px;
+    display: flex;
+
+
+}
+
+.slidess input {
+
+    display: none;
+
+
+}
+
+.slidee {
+
+    width: 25%;
+    position: relative;
+
+}
+
+.slidee img {
+
+    width: 340px;
+
+}
+
+.manual-navegacão {
+
+    position: absolute;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.manual-btn {
+    margin-left: 12%;
+    margin-top: 2%;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .08s;
+
+
+
+
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 15px;
+
+
+}
+
+.manual-btn:hover {
+
+    background-color: black;
+
+}
+
+#rodio1:checked~.first {
+
+    margin-left: 0;
+}
+
+#rodio2:checked~.first {
+
+    margin-left: -25%;
+}
+
+#rodio3:checked~.first {
+
+    margin-left: -50%;
+}
+
+.navegacão div {
+
+    border: 1px solid yellow;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .08s;
+
+}
+
+.navegacão {
+
+    position: absolute;
+    width: 300px;
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+    margin-left: 18px;
+    margin-top: 406px;
+}
+
+
+
+.navegacão div:not(:last-child) {
+
+    margin-right: 51px;
+
+}
+
+#rodio1:checked~.navegacão .auto-bt1 {
+
+    background-color: yellow;
+
+}
+
+#rodio2:checked~.navegacão .auto-bt2 {
+
+    background-color: yellow;
+
+}
+
+#rodio3:checked~.navegacão .auto-bt3 {
+
+    background-color: yellow;
+
+}
+
+
+.videop3 {
+
+    width: 350px;
+    margin-top: 0%;
+
+
+}
+
+#save {
+    font-family: "Pacifico", cursive;
+    font-size: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 7px;
+    color: yellow;
+    border: 1px solid black;
+    background: black;
+    border-radius: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+#save1 {
+    font-family: "Pacifico", cursive;
+    font-size: 15px;
+    margin-left: 0%;
+    margin-right: 0%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: yellow;
+    border: 1px solid black;
+    background: black;
+    border-radius: 500px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 5px;
+
+
+}
+
+.whats {
+
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+
+
+
+}
+
+
+.header3 {
+    display: flex;
+    flex-flow: row wrap;
+    height: 540px;
+    /* background: rgba(128, 128, 128, 0); */
+    background: url('../img/rd.jpg') no-repeat center;
+    background-size: cover;
+    overflow-y: hidden;
+
+}
+
+.CR {
+
+    overflow-y: hidden;
+
+}
+
+.CD {
+
+    overflow-y: hidden;
+
+}
+
+.CD {
+
+    overflow-y: hidden;
+
+}
+
+#RBT {
+
+    background: yellow;
+    padding: 10px 25px;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 1px solid black;
+
+}
+
+#RBT:hover {
+
+    border: none;
+    background: rgb(0, 0, 0);
+    border: 1px solid black;
+    color: rgb(255, 255, 255);
+
+}
+
+.RSinsta {
+
+    margin: 13% 39%;
+    position: absolute;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.RStiktok {
+
+    margin: 25% 39%;
+    position: absolute;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.header2 {
+    display: flex;
+    flex-flow: row wrap;
+    height: 540px;
+    /* background: rgba(128, 128, 128, 0); */
+    background: url('../img/cardapio1.jpg') no-repeat center;
+    background-size: auto;
+    overflow-y: hidden;
+
+}
+
+
+.header4 {
+    display: flex;
+    flex-flow: row wrap;
+    height: 540px;
+    /* background: rgba(128, 128, 128, 0); */
+    background: url('../img/fundo.jpg') no-repeat center;
+    background-size: auto;
+    overflow-y: hidden;
+
+}

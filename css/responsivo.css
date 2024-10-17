@@ -1,0 +1,198 @@
+@media screen and (max-width:1200px) {
+
+
+    .navbar {
+
+        background: yellow;
+
+    }
+
+    .logo {
+
+        display: none;
+
+    }
+
+    .menu {
+
+        margin: 0;
+        text-align: center;
+
+    }
+
+    .header {
+        display: flex;
+        flex-flow: row wrap;
+        height: 1300px;
+        /* background: rgba(128, 128, 128, 0); */
+        background: url('../img/doiss.jpg') no-repeat center;
+        background-size: cover;
+
+
+    }
+
+    #save {
+
+        display: none;
+
+    }
+
+    #save1 {
+
+        display: none;
+
+    }
+
+
+    .parte1 {
+
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+        background: no-repeat center;
+        background-size: cover;
+
+
+    }
+
+    .img-parte1 {
+        flex: 10%;
+        margin-left: 2%;
+        margin-right: 20%;
+        margin-top: 0%;
+        /* margin-bottom: 0%; */
+        text-align: center;
+        background: no-repeat center;
+        background-size: cover;
+        border: none;
+
+    }
+
+    .img-parte2 {
+        flex: 10%;
+        margin-left: 23%;
+        margin-right: 3%;
+        margin-top: 0%;
+        text-align: center;
+        background: no-repeat center;
+        background-size: cover;
+        border: none;
+
+
+
+    }
+
+    .manual-navegacao {
+
+        position: absolute;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .manual-btn {
+        margin-left: 12%;
+        margin-top: 2%;
+        border: 2px solid yellow;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: .08s;
+        margin-right: 12%;
+
+
+
+
+    }
+
+    .navegacao div {
+
+        border: 2px solid rgb(0, 0, 0);
+        padding: 5px;
+        cursor: pointer;
+        border-radius: 10px;
+        transition: .08s;
+        margin-right: 12%;
+
+    }
+
+    .navegacao {
+
+        position: absolute;
+        width: 300px;
+        margin-top: 400px;
+        display: flex;
+        justify-content: center;
+        margin-left: 18px;
+        margin-top: 406px;
+        margin-right: 12%;
+    }
+
+    .navegacão div {
+
+        border: 2px solid black;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: .08s;
+        margin-right: 12%;
+    }
+
+
+    .header3 {
+        display: flex;
+        flex-flow: row wrap;
+        height: 1300px;
+        /* background: rgba(128, 128, 128, 0); */
+        background: url('../img/doisss.jpg') no-repeat center;
+        background-size: cover;
+        overflow-y: hidden;
+
+    }
+
+    .header2 {
+        display: flex;
+        flex-flow: row wrap;
+        height: 540px;
+        /* background: rgba(128, 128, 128, 0); */
+        background: url('../img/cardapio1.jpg') no-repeat center;
+        background-size: auto;
+
+
+    }
+
+    .header4 {
+        display: flex;
+        flex-flow: row wrap;
+        height: 540px;
+        /* background: rgba(128, 128, 128, 0); */
+        background: url('../img/fundo.jpg') no-repeat center;
+        background-size: auto;
+        overflow-y: hidden;
+
+    }
+
+    .RSinsta {
+
+        margin: 8% 39%;
+        position: absolute;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .RStiktok {
+
+        margin: 29% 39%;
+        position: absolute;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+}
